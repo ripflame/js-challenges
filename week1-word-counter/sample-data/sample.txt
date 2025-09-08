@@ -1,0 +1,16 @@
+The quick brown fox jumps over the lazy dog. The dog was sleeping peacefully under the warm sun.
+This is a sample text file for testing the word counter application. It contains various words, punctuation marks, and repeated terms.
+
+The application should count all words, find unique words, and identify the most frequent word in the text.
+Some words appear multiple times: the, and, is, are, should, word, words.
+
+Here are some edge cases to test:
+- Hyphenated-words should be counted as single words
+- Contractions like "don't", "won't", "it's" should be handled properly
+- Numbers like 123, 456.7, and mixed alpha-numeric terms like "word123" should work
+- UPPERCASE, lowercase, and MiXeD cAsE words should be normalized
+
+The word "the" appears frequently in English text and should likely be the most common word.
+Testing, testing, 123. Testing again with some repeated words: testing, words, the, application.
+
+End of sample text file. The final word count should include all these words properly processed.

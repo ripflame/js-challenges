@@ -1,0 +1,28 @@
+{
+  "app": {
+    "name": "MyApp",
+    "version": "1.0.0",
+    "debug": false,
+    "port": 3000
+  },
+  "database": {
+    "host": "localhost",
+    "port": 3306,
+    "username": "admin",
+    "ssl": {
+      "enabled": true,
+      "cert": "/path/to/cert.pem",
+      "key": "/path/to/key.pem"
+    }
+  },
+  "features": {
+    "logging": true,
+    "analytics": false,
+    "caching": true
+  },
+  "limits": {
+    "maxConnections": 100,
+    "timeout": 30000,
+    "retries": 3
+  }
+}

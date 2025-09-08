@@ -1,0 +1,30 @@
+{
+  "name": "js-self-sufficiency-challenges",
+  "version": "1.0.0",
+  "description": "JavaScript coding challenges for building confidence without AI assistance",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS='--experimental-vm-modules' jest",
+    "test:week1": "NODE_OPTIONS='--experimental-vm-modules' jest --testPathPattern=week1-word-counter",
+    "test:week2": "NODE_OPTIONS='--experimental-vm-modules' jest --testPathPattern=week2-config-manager", 
+    "test:week3": "NODE_OPTIONS='--experimental-vm-modules' jest --testPathPattern=week3-log-analyzer",
+    "test:watch": "NODE_OPTIONS='--experimental-vm-modules' jest --watch",
+    "test:coverage": "NODE_OPTIONS='--experimental-vm-modules' jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "javascript",
+    "coding-challenges",
+    "learning",
+    "node.js",
+    "file-operations",
+    "data-processing"
+  ],
+  "author": "Self-Learning Developer",
+  "license": "MIT"
+}

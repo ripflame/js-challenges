@@ -1,0 +1,6 @@
+Hello!!! World??? How are you today... Fine, thanks! 
+@#$%^&*() Special characters everywhere!!! 
+"Quoted text", 'single quotes', and (parenthetical) remarks.
+Testing: colons; semicolons, commas... and ellipses...
+Price is $19.99 and time is 12:30 PM.
+Email: test@example.com and website: https://example.com
